@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="libro" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports/>
+    <implements/>
+    <fields>
+        <variable access="protected" type="String" type-java="String" name="titulo" enable="true"/>
+        <variable access="protected" type="String" type-java="String" name="autor" enable="true"/>
+    </fields>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <param type="String" type-java="String" name="titulo"/>
+                <param type="String" type-java="String" name="autor"/>
+            </params>
+            <throws/>
+            <body>
+                <assign dest="titulo" dest-java="titulo" src="&quot;Mario: su vida &quot;" src-java="&quot;Mario: su vida &quot;" enable="true"/>
+                <assign dest="autor" dest-java="autor" src="&quot;Mario Hernandez&quot;" src-java="&quot;Mario Hernandez&quot;" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods/>
+</class>
